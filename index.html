@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <div id="header">
+        <h1>Social Media Dashboard</h1>
+        <p class="sub-title">Total Followers: 23,004 </p>
+      </div>
+      <div class="theme-container">
+        <input type="checkbox" id="checkbox" class="checkbox">
+        <div class="btn-container"> <span id="text-dark">Dark Mode</span> <label class="label" for="checkbox">
+            <div class="ball"></div>
+          </label>
+        </div>
+      </div>
+    </header>
+
+    <article>
+      <div class="top card">
+        <div class="name"><i class="fab fa-facebook fa-2x"></i> @nathanf </div>
+        <p class="top-number number">1987
+        </p>
+        <p class="followers"> Followers</p>
+        <p class="green"> <i class="fas fa-sort-up"></i> 12 Today</p>
+      </div>
+      <div class="top card">
+        <div class="name"> <i class="fab fa-twitter fa-2x"></i> @nathanf </div>
+        <p class="top-number number">1044
+        </p>
+        <p class="followers">Followers</p>
+        <p class="green"> <i class="fas fa-sort-up"></i> 99 Today </p>
+      </div>
+      <div class="top card">
+        <div class="name"> <i class="fab fa-instagram fa-2x"></i>@realnathanf</div>
+        <p class="top-number number">11k </p>
+        <p class="followers">Followers</p>
+        <p class="green"> <i class="fas fa-sort-up"></i> 1099 Today </p>
+      </div>
+      <div class="top card">
+        <div class="name"> <i class="fab fa-youtube fa-2x"></i> Nathan F. </div>
+        <p class="top-number number">8239
+        </p>
+        <p class="followers"> Subscribers </p>
+        <p class="red"><i class="fas fa-sort-down"></i> 144 Today </p>
+      </div>
+    </article>
+
+    <div class="bottom">
+      <h2> Overview - Today</h2>
+      <aside>
+        <div class="card">
+          <div class="sub-title">Page Views <i class="fab fa-facebook fa-2x"></i> </div>
+          <div class="bottom-numbers">
+            <p class="number">87
+            </p>
+            <p class="green"> <i class="fas fa-sort-up"></i> 3%</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="sub-title">Likes <i class="fab fa-facebook fa-2x"></i></div>
+          <div class="bottom-numbers">
+            <p class="number">52
+            </p>
+            <p class="red"><i class="fas fa-sort-down"></i> 2%</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="sub-title"> Likes <i class="fab fa-instagram fa-2x"></i></div>
+          <div class="bottom-numbers">
+            <p class="number">5462</p>
+            <p class="green"> <i class="fas fa-sort-up"></i>2257%</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="sub-title">Profile Views <i class="fab fa-instagram fa-2x"></i></div>
+          <div class="bottom-numbers">
+            <p class="number">52k
+            </p>
+            <p class="green"> <i class="fas fa-sort-up"></i>1375%</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="sub-title"> Retweets <i class="fab fa-twitter fa-2x"></i> </div>
+          <div class="bottom-numbers">
+            <p class="number">117
+            </p>
+            <p class="green"><i class="fas fa-sort-up"></i> 303%</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="sub-title"> Likes <i class="fab fa-twitter fa-2x"></i> </div>
+          <div class="bottom-numbers">
+            <p class="number">507
+            </p>
+            <p class="green"><i class="fas fa-sort-up"></i> 553%</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="sub-title"> Likes <i class="fab fa-youtube fa-2x"></i></div>
+          <div class="bottom-numbers">
+            <p class="number">107
+            </p>
+            <p class="red"> <i class="fas fa-sort-down"></i> 19%</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="sub-title"> Total Views <i class="fab fa-youtube fa-2x"></i></div>
+          <div class="bottom-numbers">
+            <p class="number">1407</p>
+            <p class="red"> <i class="fas fa-sort-down"></i> 12%</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="app.js">  </script>
+</body>
+
+</html>
